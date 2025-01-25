@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <!-- Site Title-->
+  <title>Typography</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval';">
+  <style>
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="cssload-container">
+      <svg class="filter" version="1.1">
+        <defs>
+          <filter id="gooeyness">
+            <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur"></fegaussianblur>
+            <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness">
+            </fecolormatrix>
+            <fecomposite in="SourceGraphic" in2="gooeyness" operator="atop"></fecomposite>
+          </filter>
+        </defs>
+      </svg>
+      <div class="dots">
+        <div class="dot mainDot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <p>Loading...</p>
+    </div>
+  </div>
+  <!-- Page-->
+  <div class="page">
+    <header class="page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+          data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed"
+          data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static"
+          data-lg-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
+          data-xxl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-stick-up-clone="false"
+          data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-md-stick-up-offset="115px"
+          data-lg-stick-up-offset="35px">
+          <!-- RD Navbar Top Panel-->
+
+          <div class="rd-navbar-inner rd-navbar-search-wrap">
+            <!-- RD Navbar Panel-->
+            <div class="rd-navbar-panel rd-navbar-search-lg_collapsable">
+              <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+              <!-- RD Navbar Brand-->
+              <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="image/web-logo.png"
+                    alt="" width="344" height="33" /></a></div>
+            </div>
+            <!-- RD Navbar Nav-->
+            <div class="rd-navbar-nav-wrap rd-navbar-search_not-collapsable">
+              <div class="rd-navbar-search_collapsable">
+                <ul class="rd-navbar-nav">
+                  <li ><a style="font-size: 16px;" href="index.html">Home</a>
+                  </li>
+                  <li><a style="font-size: 16px;" href="about.html">About</a>
+                  <li><a style="font-size: 16px;" href="index.html#OurServices"> Services</a></li>
+                  <li><a style="font-size: 16px;" href="WhyChooseUs.html#OurProject"> Project</a></li>
+                  <li><a style="font-size: 16px;" href="WhyChooseUs.html#OurPartners"> Partners</a></li>
+                  </li>
+                  <li class="active"><a style="font-size: 16px;" href="WhyChooseUs.html">Why us</a>
+                  </li>
+                  <li><a style="font-size: 16px;" href="contacts.html">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Parallax header-->
+    <section>
+      <section class="section parallax-container context-dark" data-parallax-img="image/2.png">
+        <div class="parallax-content parallax-header">
+          <div class="parallax-header__inner context-dark">
+            <div class="parallax-header__content">
+              <div class="container">
+                <div class="row justify-content-sm-center">
+                  <div class="col-md-10 col-xl-8">
+                    <h2 class="heading-decorated">Why Choose Us</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <div class="section-sm section-divided">
+      <div class="container">
+        <div class="row row-50 row-md-75">
+          <div class="col-lg-8 section-divided__main">
+            <!-- Base typography-->
+            <section class="section-sm" id="OurPartners">
+              <ul class="list-md">
+                <li>
+                  <h3 class="wow slideInDown">Our Partners</h3>
+                  <p class="wow fadeInUp">
+                    Dar Al Anmar Engineer-ing Company (Dar Al
+                    Anmar Engineering) is
+                    proud of its strategic
+                    partnership with two
+                    leading companies in
+                    their field: Orient Gate
+                    for Oil Services and Dlo
+                    General Contracting
+                    Group. These partner-ships aim to strengthen
+                    the company's capabili-ties and expand its
+                    services, in line with its
+                    vision to achieve the
+                    highest standards of
+                    quality and excellence in
+                    its projects.
+                  </p>
+                </li>
+              </ul>
+            </section>
+
+
+
+
+
+            <!-- Right aligned image-->
+            <section class="section-sm" id="DaloGroupCompanies">
+              <h5 class="wow slideInDown">Dalo Group Companies</h5>
+              <div class="row row-30">
+                <div class="col-md-6">
+                  <p class="wow fadeInUp">
+                    DALO General Contracting Group has a strong reputa-tion in the field of general contracting and
+                    construc-tion. Our partnership with Al Dlo Group includes mul-tiple goals focused on delivering high
+                    quality and
+                    effective projects in implementation
+                  </p>
+                </div>
+                <div class="col-md-6 wow fadeIn" data-wow-delay=".4s">
+                  <figure class="figure"><img src="firstpartners.png" alt="" width="1500"
+                      height="1000" />
+                  </figure>
+                </div>
+              </div>
+            </section>
+            <style>
+              .project-image {
+                width: 49.5%;
+                height: auto;
+              }
+
+              @media screen and (max-width: 768px) {
+                .project-image {
+                  width: 48.5%;
+                  height: auto;
+                }
+              }
+            </style>
+            <!--  -->
+            <section class="section-sm" id="BawabetalsharqOilServices">
+              <h5 class="wow slideInDown">Bawabet alsharq Oil Services</h5>
+              <div class="row row-30">
+                <div class="col-md-6">
+                  <p class="wow fadeInUp">
+
+                    Bawabet alsharq Oil Services is one of the leading
+                    integrated oil service providers. Through this partner-ship, Dar Al Anmar Engineering seeks to
+                    leverage the
+                    East Gate's extensive expertise in exploration, pro-duction and logistics related to the oil
+                    industry.
+                  </p>
+                </div>
+                <div class="col-md-6 wow fadeIn" data-wow-delay=".4s">
+                  <figure class="figure"><img src="secpartners.png" alt="" width="1500"
+                      height="1000" />
+                  </figure>
+
+                </div>
+              </div>
+            </section>
+
+                <style>
+                  .rowes{
+                    gap: 5px;
+                  }
+                  .rowes div{
+                    background-color: #1F2845;
+                    padding: 10px;
+                  }
+                  .rowes div p{
+                    margin-top: 0;
+                    color: white;
+                  }
+                  .rowes div .title{
+                    font-weight: bold;
+                  }
+                </style>
+            <!-- Large image should always fit-->
+            <section class="section-sm" id="OurProject" >
+              <h3 style="margin-bottom: 20px;" class="wow slideInDown">Our Project</h3>
+              <div class="container wow fadeInUp" id="ConstructionOfPlant">
+                <div class="row rowes">
+                  <div class="col-sm-5">
+                    <p class="title">Project Name:</p>
+                    <p>Construction of Plant
+                      Entrance Methods - Quarries</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <p class="title">Project Location:</p>
+                    <p>Taji - Baghdad/Iraq</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <p class="title">contract Term:</p>
+                    <p>100 days</p>
+                  </div>
+                </div>
+                
+                <div class="row rowes" style="margin-top: 10px;">
+                  <div class="col-sm-6">
+                    <p class="title">Contract number & value:</p>
+                    <p>$ 8,000,000</p>
+                  </div>
+                  <div class="col-sm-5">
+                    <p class="title">Date of commencement of the contract:</p>
+                    <p>01 October 2022</p>
+                  </div>
+                </div>
+              </div>
+              <h5 class="wow fadeIn" data-wow-delay=".6s">Details and role of Dlo Group and Dar Al Anmar Engineering Company during the implementation of this
+                project:</h5>
+              <p class="wow fadeInUp">Due to the excellent expertise and possession of a group of machinery and manpower on which the two
+                companies were nominated to carry out the work of processing concretate concrete and casting using a
+                Farsha Concreet device for pouring squares and streets, the design is done by pouring Round Street and
+                Yap with a total width of 8.5m and 30cm thickness and length (15) km with an estimated amount of
+                127,500m2 and a compression force of 35 MicaPascal for a life of 28 days. All joints contain 20 mm
+                thickness trades, concreet joint work and stretch joint treatment. All work paragraphs have been
+                implemented according to the approved plans and specifications and by international standards.</p>
+              <figure class="figure wow fadeIn" data-wow-delay=".4s"><img style="width: 100%;" src="image/project1/main-image.png" alt="" width="1500" height="1000" />
+              </figure>
+              <div class="d-flex" style="gap: 10px;">
+                <img class="project-image wow slideInLeft" src="image/project1/first-image.png" alt="">
+                <img class="project-image wow slideInRight" src="image/project1/sec-image.png" alt="">
+              </div>
+            </section>
+            <section class="section-sm">
+              <div class="container wow fadeInUp" data-wow-delay=".6s" id="ConstructionOfSaharqa">
+                <div class="row rowes">
+                  <div class="col-sm-5">
+                    <p class="title">Project Name:</p>
+                    <p>Construction of Saharqa Street
+                      No. 1 in Hasira Qadha village of Kifri</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <p class="title">Project Location:</p>
+                    <p>Sulaymaniyah / Iraq</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <p class="title">Ex. contract:</p>
+                    <p>May 2022</p>
+                  </div>
+                </div>
+                
+                <div class="row rowes" style="margin-top: 10px;">
+                  <div class="col-sm-6">
+                    <p class="title">Contract number & value:</p>
+                    <p>$ 809,370.00</p>
+                  </div>
+                  <div class="col-sm-5">
+                    <p class="title">Date of commencement of the contract:
+                    </p>
+                    <p>January 2022
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <h5 class="wow fadeIn">Details and role of Dar Al Anmar Engineering Group during the implementation of this project:</h5>
+              <p class="wow fadeInUp">Due to the excellent expertise and possession of a group of machinery and manpower on which the two
+                companies were nominated to carry out the work of processing concretate concrete and casting using a
+                Farshe Concrette device to pour squares and streets, This is 38,250m2, 7.5m wide, 30cm thick, 35 Mica
+                Pascal compression force, 28 days old. All joints have 20mm thickness trades, concreet cutter joint work
+                and stretch joints treatment. All work paragraphs have been implemented according to the approved plans
+                and specifications and by international standards.</p>
+              <figure class="figure wow fadeIn" data-wow-delay=".4s"><img style="width: 100%;" src="image/project2/main-image.png" alt="" width="1500" height="1000" />
+              </figure>
+              <div class="d-flex" style="gap: 10px;">
+                <img class="project-image wow slideInLeft" src="image/project2/first-image.png" alt="">
+                <img class="project-image wow slideInRight" src="image/project2/sec-image.png" alt="">
+              </div>
+            </section>
+
+
+
+            <!-- Ordered list-->
+            <section class="section-sm" id="WhyUs">
+              <h5 class="wow fadeInDown">Why us</h5>
+              <ul class="list-ordered">
+                <li class="wow fadeInLeftSmall" data-wow-delay=".1s"> Distinguished specialists in general construction
+                  and contracting.</li>
+                <li class="wow fadeInLeftSmall" data-wow-delay=".2s"> We guarantee our customers the quality of work
+                  and commitment until the completion of the work
+                  and delivery of the accomplished.</li>
+                <li class="wow fadeInLeftSmall" data-wow-delay=".3s">Engage our clients in business steps to achieve
+                  sustainable project service</li>
+                <li class="wow fadeInLeftSmall" data-wow-delay=".4s">Provide the best unique and innovative engineer-ing solutions to our customers.</li>
+                <li class="wow fadeInLeftSmall" data-wow-delay=".5s">Work with engineering expertise and professional
+                  cadres to improve the efficiency of achievement.</li>
+                <li class="wow fadeInLeftSmall" data-wow-delay=".6s"> Provide optimal level of services that meet all cus-tomer and investor requirements and regulatory
+                  requirements that achieve efficiency and quality.</li>
+                <li class="wow fadeInLeftSmall" data-wow-delay=".7s">Strive to create valuable businesses for our cus-tomers through careful planning and thorough
+                  exe-cution.
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="col-lg-4 section-divided__aside">
+            <!-- Search-->
+            <section class="section-sm section-style-1 wow slideInRight">
+              <h6>About</h6>
+              <div class="thumbnail-classic-minimal"><img src="image/10.png" alt="" width="210"
+                  height="210" />
+                <div class="caption">
+                  <p>Dar Al Anmar Engineering General Contracting Company
+                    (Limited Liability Company) was founded in 2008 and has
+                    since specialized in the fields of construction, paving, paving
+                    and maintenance of roads and building construction. The
+                    company has a team of experienced and efficient engineers
+                    and technicians, enabling it to carry out various projects with
+                    high efficiency.......</p><a class="button button-link" href="about.html">Read more</a>
+                </div>
+              </div>
+            </section>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="pre-footer-corporate bg-image-7 bg-overlay-darkest">
+      <div class="container">
+        <div class="row justify-content-sm-center justify-content-lg-start row-30 row-md-60">
+          <div class="col-sm-10 col-md-6 col-lg-10 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <h6>About</h6>
+            <p>Dar Al Anmar Engineering General Contracting Company (Limited Liability Company) was founded in 2008 and
+              has since specialized in the fields of construction, paving, paving and maintenance of roads and building
+              construction. The company has a team of experienced and efficient engineers and technicians, enabling it
+              to carry out various projects with high efficiency.......</p>
+              <a href="about.html" class="button button-primary button-shadow">Read more</a>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-3 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <h6>Navigation</h6>
+            <ul class="list-xxs">
+              <li><a href="about.html">About</a></li>
+              <li><a href="WhyChooseUs.html#WhyUs">Why Choose Us</a></li>
+              <li><a href="index.html#OurServices">Our Services</a></li>
+              <li><a href="WhyChooseUs.html#OurProject">Our Project</a></li>
+              <li><a href="WhyChooseUs.html#OurPartners">Our Partners</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-4 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <h6>Contacts</h6>
+            <ul class="list-xs">
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>Address</dt>
+                  <dd>Iraq - basra - Aljazayir.</dd>
+                </dl>
+              </li>
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>Phones</dt>
+                  <dd>
+                    <ul class="list-semicolon">
+                      <li><a href="tel:#">+96407715555404</a></li>
+                      <li><a href="tel:#">+96407815555404</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>E-mail</dt>
+                  <dd><a href="mailto:#">info@dar-alanmar.com</a></dd>
+                </dl>
+              </li>
+              <li>
+                <a style="margin-right: 10px;" class="icon-sm fa-facebook icon" href="#"></a>
+                <a style="margin-right: 10px;" class="icon-sm fa-linkedin icon" href="#"></a>
+                <a class="icon-sm fa-instagram icon" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+  </div>
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

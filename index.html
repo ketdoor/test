@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="ar">
+
+<head>
+  <!-- Site Title-->
+  <title>Home</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval';">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+  <style>
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="preloader">
+    <div class="cssload-container">
+      <svg class="filter" version="1.1">
+        <defs>
+          <filter id="gooeyness">
+            <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur"></fegaussianblur>
+            <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness">
+            </fecolormatrix>
+            <fecomposite in="SourceGraphic" in2="gooeyness" operator="atop"></fecomposite>
+          </filter>
+        </defs>
+      </svg>
+      <div class="dots">
+        <div class="dot mainDot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <p>Loading...</p>
+    </div>
+  </div>
+  <!-- Page-->
+  <div class="page">
+    <header class="page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar_transparent rd-navbar_boxed" data-layout="rd-navbar-fixed"
+          data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed"
+          data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed"
+          data-lg-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
+          data-xxl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-stick-up-clone="false"
+          data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-md-stick-up-offset="115px"
+          data-lg-stick-up-offset="35px" data-body-class="rd-navbar-absolute">
+          <!-- RD Navbar Top Panel-->
+          <div class="rd-navbar-inner rd-navbar-search-wrap">
+            <!-- RD Navbar Panel-->
+            <div class="rd-navbar-panel rd-navbar-search-lg_collapsable">
+              <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+              <!-- RD Navbar Brand-->
+              <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img
+                    src="image/web-logo.png" alt="" width="344" height="33" /></a></div>
+            </div>
+            <!-- RD Navbar Nav-->
+            <div class="rd-navbar-nav-wrap rd-navbar-search_not-collapsable">
+              <div class="rd-navbar-search_collapsable">
+                <ul class="rd-navbar-nav">
+                  <li class="active"><a style="font-size: 16px;" href="index.html">Home</a>
+                  </li>
+                  <li><a style="font-size: 16px;" href="about.html">About</a>
+                  <li><a style="font-size: 16px;" href="index.html#OurServices"> Services</a></li>
+                  <li><a style="font-size: 16px;" href="WhyChooseUs.html#OurProject"> Project</a></li>
+                  <li><a style="font-size: 16px;" href="WhyChooseUs.html#OurPartners"> Partners</a></li>
+                  </li>
+                  <li><a style="font-size: 16px;" href="WhyChooseUs.html">Why Us</a>
+                  </li>
+                  <li><a style="font-size: 16px;" href="contacts.html">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Swiper-->
+    <svg class="defs">
+      <defs>
+        <lineargradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="50%" stop-color="#1F2845">
+            <animate attributename="stop-color" values="#1F2845; #1F2845; #1F2845" dur="5s" repeatcount="indefinite">
+            </animate>
+          </stop>
+          <stop offset="100%" stop-color="#1F2845">
+            <animate attributename="stop-color" values="#1F2845; #1F2845; #1F2845" dur="5s" repeatcount="indefinite">
+            </animate>
+          </stop>
+        </lineargradient>
+      </defs>
+    </svg>
+    <div class="swiper-container swiper-slider" data-effect="frame-trapeze" data-loop="true" data-autoplay="5500"
+      data-speed="1200" data-mousewheel="false" data-keyboard="true" data-frame-fill="url(#gradient1)">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper-slide-img" style="background-image: url(image/1.png);"
+            data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }">
+          </div>
+          <div class="swiper-slide-caption text-center context-dark">
+            <h1
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">
+            </h1>
+            <h3
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 600 }">
+            </h3>
+            <div class="group-lg group-middle"
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-img" style="background-image: url(image/2.png);"
+            data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }">
+          </div>
+          <div class="swiper-slide-caption context-dark">
+            <h2
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">
+              About Us<br class="d-none d-lg-block"> </h2><a class="button button-primary button-shadow"
+              href="about.html"
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }">See
+              About Us</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-img" style="background-image: url(image/3.png);"
+            data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }">
+          </div>
+          <div class="swiper-slide-caption context-dark">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-7">
+                  <h2
+                    data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">
+                    Why us</h2>
+                  <h5 class="text-width-2 block-centered"
+                    data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 600 }">
+                  </h5>
+                  <div class="group-lg group-middle"
+                    data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }">
+                    <a class="button button-primary button-shadow" href="WhyChooseUs.html"
+                      data-custom-scroll-to="features">See
+                      why us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev linear-icon-chevron-left"></div>
+      <div class="swiper-button-next linear-icon-chevron-right"></div>
+    </div>
+    <style>
+      .span {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+      }
+
+      @media screen and (max-width: 990px) {
+        .span {
+          display: none;
+        }
+      }
+    </style>
+    <p class="span"></p>
+    <!-- About us-->
+    <section class="bg-gray-lighter object-wrap mt-0">
+      <!-- <div class="bg-decor d-flex align-items-center justify-content-start"
+        data-parallax-scroll="{&quot;y&quot;: 50,  &quot;smoothness&quot;: 30}"><img src="images/bg-decor-4.png"
+          alt="" />
+      </div> -->
+      <div class="section-lg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <h4 class="heading-decorated wow fadeInUp">About us</h4>
+              <p class="wow fadeInUpSmall">
+                Dar Al Anmar Engineering General Contracting Company
+                (Limited Liability Company) was founded in 2008 and has
+                since specialized in the fields of construction, paving, paving
+                and maintenance of roads and building construction. The
+                company has a team of experienced and efficient engineers
+                and technicians, enabling it to carry out various projects with
+                high efficiency.......</p>
+              <a href="about.html" class="button button-primary button-shadow">Read more</a>
+              <div class="row justify-content-md-center">
+                <div class="col-md-12">
+                  <!-- Linear progress bar-->
+                  <div class="progress-linear progress-linear-modern">
+                    <div class="progress-header">
+                      <p>Dedication</p><span class="progress-value">100</span>
+                    </div>
+                    <div class="progress-bar-linear-wrap">
+                      <div class="progress-bar-linear"></div>
+                    </div>
+                  </div>
+                  <!-- Linear progress bar-->
+                  <div class="progress-linear progress-linear-modern">
+                    <div class="progress-header">
+                      <p>Experience</p><span class="progress-value">90</span>
+                    </div>
+                    <div class="progress-bar-linear-wrap">
+                      <div class="progress-bar-linear"></div>
+                    </div>
+                  </div>
+                  <!-- Linear progress bar-->
+                  <div class="progress-linear progress-linear-modern">
+                    <div class="progress-header">
+                      <p>Creativity</p><span class="progress-value">94</span>
+                    </div>
+                    <div class="progress-bar-linear-wrap">
+                      <div class="progress-bar-linear"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="object-wrap__body object-wrap__body-sizing-1 object-wrap__body-md-right bg-image wow slideInRight"
+        style="background-image: url(image/4.png)"></div>
+    </section>
+    <!-- Our Services-->
+    <section class="section-md bg-default text-center decor-text" id="OurServices" data-content="Services">
+      <!-- <div class="bg-decor d-flex align-items-center"
+        data-parallax-scroll="{&quot;x&quot;: 80,  &quot;smoothness&quot;: 30}"><img src="images/bg-decor-1.png"
+          alt="" />
+      </div> -->
+      <div class="container">
+        <h4 class="heading-decorated wow slideInDown">Our Services</h4>
+        <h5 class="mt-2 wow fadeInUp">The most
+          prominent
+          services offered
+          by our company</h5>
+        <div class="row row-50 justify-content-md-center justify-content-lg-start text-left">
+          <div class="col-md-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- Blurb circle-->
+            <article class="blurb blurb-minimal">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-minimal__icon"><span class="icon linear-icon-home"></span></div>
+                </div>
+                <div class="unit-body">
+                  <p>Construction of residential building projects, In all
+                    its details according to the latest engineering specifications</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- Blurb circle-->
+            <article class="blurb blurb-minimal">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-minimal__icon"><span class="icon fa-building-o"></span></div>
+                </div>
+                <div class="unit-body">
+                  <p>Construction of commercial and service buildings
+                    (schools, hospitals, hotels, commercial buildings,
+                    commercial markets (malls))</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- Blurb circle-->
+            <article class="blurb blurb-minimal">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-minimal__icon"><span class="icon fa-road"></span></div>
+                </div>
+                <div class="unit-body">
+                  <p>
+                    Construction, paving and maintenance of roads
+                    within the global technologies and specifications
+                    approved by the latest machinery and equipment. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- Blurb circle-->
+            <article class="blurb blurb-minimal">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-minimal__icon">
+                    <svg class="icon" style="width: 32px;fill:#be9979" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path
+                        d="M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l40 0 0 64L0 160 0 288c53 0 96 43 96 96l0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64c0-53 43-96 96-96s96 43 96 96l0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64c0-53 43-96 96-96l0-128-72 0 0-64 40 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zM456 96l0 64-80 0 0-64 80 0zM328 96l0 64-80 0 0-64 80 0zM200 96l0 64-80 0 0-64 80 0z" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="unit-body">
+                  <p>Construction and maintenance of bridges and expenditure
+                    within the latest international engineering and technical
+                    specifications, ensuring their use with the highest efficiency.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- Blurb circle-->
+            <article class="blurb blurb-minimal">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-minimal__icon"><span class="icon fa-lightbulb-o"></span></div>
+                </div>
+                <div class="unit-body">
+                  <p>The lighting of roads, bridges and residential
+                    facilities using the latest technology to ensure efficiency.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- Blurb circle -->
+            <article class="blurb blurb-minimal">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-minimal__icon">
+                    <svg class="icon" style="width: 32px;fill:#be9979" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path
+                        d="M256 0c-17.7 0-32 14.3-32 32l0 264.6c-19.1 11.1-32 31.7-32 55.4c0 35.3 28.7 64 64 64s64-28.7 64-64c0-23.7-12.9-44.4-32-55.4L288 32c0-17.7-14.3-32-32-32zM48 128c-26.5 0-48 21.5-48 48L0 464c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-80 0c-17.7 0-32 14.3-32 32l0 192c0 53-43 96-96 96s-96-43-96-96l0-192c0-17.7-14.3-32-32-32l-80 0z" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="unit-body">
+                  <p>
+                    Drilling, laying, backfilling and recalibrating sewage
+                    and sewage pipelines within the global technical,
+                    health and environmental specifications. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- Blurb minimal-->
+            <article class="blurb blurb-minimal">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-minimal__icon">
+                    <svg class="icon" style="width: 32px;fill:#be9979" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path
+                        d="M96 320c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2C64.7 126.1 64 119.1 64 112C64 50.1 114.1 0 176 0c43.1 0 80.5 24.3 99.2 60c14.7-17.1 36.5-28 60.8-28c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c53 0 96 43 96 96s-43 96-96 96L96 320zm-6.8 52c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3l0 3c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-3c0-8.5 2.1-16.9 6.2-24.3L89.2 372zm160 0c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3l0 3c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-3c0-8.5 2.1-16.9 6.2-24.3L249.2 372zm124.9 64.6L409.2 372c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3l0 3c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-3c0-8.5 2.1-16.9 6.2-24.3z" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="unit-body">
+                  <p>
+                    Drilling, laying, backfilling and recalibrating
+                    rainwater pipelines within global technical, health
+                    and environmental specifications. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- Blurb minimal-->
+            <article class="blurb blurb-minimal">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-minimal__icon">
+                    <svg class="icon" style="width: 32px;fill:#be9979" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path
+                        d="M224 0c17.7 0 32 14.3 32 32l0 12 96-12c17.7 0 32 14.3 32 32s-14.3 32-32 32L256 84l-31-3.9-1-.1-1 .1L192 84 96 96C78.3 96 64 81.7 64 64s14.3-32 32-32l96 12 0-12c0-17.7 14.3-32 32-32zM0 224c0-17.7 14.3-32 32-32l96 0 22.6-22.6c6-6 14.1-9.4 22.6-9.4l18.7 0 0-43.8 32-4 32 4 0 43.8 18.7 0c8.5 0 16.6 3.4 22.6 9.4L320 192l32 0c88.4 0 160 71.6 160 160c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s-14.3-32-32-32l-36.1 0c-20.2 29-53.9 48-91.9 48s-71.7-19-91.9-48L32 320c-17.7 0-32-14.3-32-32l0-64zM436.8 423.4c1.9-4.5 6.3-7.4 11.2-7.4s9.2 2.9 11.2 7.4l18.2 42.4c1.8 4.1 2.7 8.6 2.7 13.1l0 1.2c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-1.2c0-4.5 .9-8.9 2.7-13.1l18.2-42.4z" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="unit-body">
+                  <p>
+                    Drilling, laying, backfilling and recalibrating drinking
+                    water pipelines to incorporate global technical,
+                    health and environmental specifications. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- Blurb minimal-->
+            <article class="blurb blurb-minimal">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-minimal__icon">
+                    <svg class="icon" style="width: 32;fill:#be9979" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path
+                        d="M32 32C14.3 32 0 46.3 0 64L0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-181.7L149.2 96 64 96l0-32c0-17.7-14.3-32-32-32zM405.2 96l-74.3 0-5.4 10.7L234.8 288l74.3 0 5.4-10.7L405.2 96zM362.8 288l74.3 0 5.4-10.7L533.2 96l-74.3 0-5.4 10.7L362.8 288zM202.8 96l-5.4 10.7L106.8 288l74.3 0 5.4-10.7L277.2 96l-74.3 0zm288 192l85.2 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-384c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 53.7L490.8 288z" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="unit-body">
+                  <p>
+                    Installation of metal and concrete barriers to clarify road
+                    boundaries, clarification of concrete roadblocks and
+                    prevention of vehicle deviation beyond road boundaries. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--cta-->
+    <!-- Call to Action-->
+    <section class="section-md bg-accent bg-image text-center bg-overlay-darker"
+      style="background-image: url(image/9.png); background-position: center 50%;">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-11 col-lg-9 col-xl-8">
+            <h3 class="heading-decorated wow slideInDown">Feel free to get in touch</h3><a
+              class="button button-primary wow fadeInUp" href="contacts.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio-->
+    <section class="section-md bg-default text-center" style="background-color: #f8f8f8;">
+      <!-- <div class="bg-decor d-flex align-items-center"
+        data-parallax-scroll="{&quot;y&quot;: 50,  &quot;smoothness&quot;: 30}"><img src="images/bg-decor-6.png"
+          alt="" />
+      </div> -->
+      <div class="container">
+        <h4 class="heading-decorated wow fadeInDown">Our Project</h4>
+        <div class="isotope-wrap row row-70">
+          <div class="col-sm-12">
+            <ul class="list-nav isotope-filters isotope-filters-horizontal ">
+              <li><a class="active" data-isotope-filter="*" data-isotope-group="gallery" href="#">All</a></li>
+              <li><a data-isotope-filter="Category 1" data-isotope-group="gallery" href="#">roads</a></li>
+              <li><a data-isotope-filter="Category 2" data-isotope-group="gallery" href="#">Buildings</a></li>
+            </ul>
+            <div class="isotope row" data-isotope-layout="fitRows" data-isotope-group="gallery">
+              <div class="col-12 col-md-6 col-lg-4 isotope-item wow fadeIn" data-wow-delay=".4s"
+                data-filter="Category 2"><a class="img-thumbnail-variant-3"
+                  href="WhyChooseUs.html#ConstructionOfPlant"><img src="image/project1/main-image.png" style="height: 250px;" width="418" height="400"
+                    alt="" /><span class="label-custom label-white">Link</span>
+                  <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                    <ul class="list-inline-tag hover-top-element">
+                      <li>Buildings</li>
+                    </ul>
+                    <p class="heading-5 hover-top-element">Construction of Plant</p>
+                    <div class="divider"></div>
+                    <p class="small hover-bottom-element">Location :Taji - Baghdad/Iraq
+                      <span class="icon arrow-right linear-icon-arrow-right"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 isotope-item wow fadeIn" data-wow-delay=".5s"
+                data-filter="Category 1"><a class="img-thumbnail-variant-3"
+                  href="WhyChooseUs.html#ConstructionOfSaharqa"><img src="image/project2/main-image.png" style="height: 250px;" alt=""
+                    width="418" height="400" /><span class="label-custom label-white">Link</span>
+                  <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                    <ul class="list-inline-tag hover-top-element">
+                      <li>roads</li>
+                    </ul>
+                    <p class="heading-5 hover-top-element">Construction of Saharqa Street
+                    </p>
+                    <div class="divider"></div>
+                    <p class="small hover-bottom-element">Location :Sulaymaniyah / Iraq
+                    </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-md text-center bg-default">
+      <!-- <div class="bg-decor d-flex align-items-center justify-content-end"
+        data-parallax-scroll="{&quot;y&quot;: 130, &quot;smoothness&quot;: 30}"><img src="images/bg-decor-4.png"
+          alt="" />
+      </div> -->
+      <div class="container">
+        <h4 class="heading-decorated wow fadeInDown">Our Partners</h4>
+        <div class="row row-30">
+          <div class="col-sm-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+            <figure class="box-icon-image"><a style="display: flex;justify-content: center;"
+              href="WhyChooseUs.html#DaloGroupCompanies"><img src="firstpartners.png"
+                  alt="" width="126" height="102" /></a></figure>
+          </div>
+          <div class="col-sm-6 col-md-6 ">
+            <figure class="box-icon-image wow fadeInUp" data-wow-delay=".4s"><a style="display: flex;justify-content: center;"
+                href="WhyChooseUs.html#BawabetalsharqOilServices"><img src="secpartners.png" alt="" width="134"
+                  height="102" /></a></figure>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="pre-footer-corporate bg-image-7 bg-overlay-darkest">
+      <div class="container">
+        <div class="row justify-content-sm-center justify-content-lg-start row-30 row-md-60">
+          <div class="col-sm-10 col-md-6 col-lg-10 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <h6>About</h6>
+            <p>Dar Al Anmar Engineering General Contracting Company (Limited Liability Company) was founded in 2008 and
+              has since specialized in the fields of construction, paving, paving and maintenance of roads and building
+              construction. The company has a team of experienced and efficient engineers and technicians, enabling it
+              to carry out various projects with high efficiency.......</p>
+            <a href="about.html" class="button button-primary button-shadow">Read more</a>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-3 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <h6>Navigation</h6>
+            <ul class="list-xxs">
+              <li><a href="about.html">About</a></li>
+              <li><a href="WhyChooseUs.html#WhyUs">Why Choose Us</a></li>
+              <li><a href="index.html#OurServices">Our Services</a></li>
+              <li><a href="WhyChooseUs.html#OurProject">Our Project</a></li>
+              <li><a href="WhyChooseUs.html#OurPartners">Our Partners</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-4 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <h6>Contacts</h6>
+            <ul class="list-xs">
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>Address</dt>
+                  <dd>Iraq - basra - Aljazayir.</dd>
+                </dl>
+              </li>
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>Phones</dt>
+                  <dd>
+                    <ul class="list-semicolon">
+                      <li><a href="tel:#">+96407715555404</a></li>
+                      <li><a href="tel:#">+96407815555404</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>E-mail</dt>
+                  <dd><a href="mailto:#">info@dar-alanmar.com</a></dd>
+                </dl>
+              </li>
+              <li>
+                <a style="margin-right: 10px;" class="icon-sm fa-facebook icon" href="#"></a>
+                <a style="margin-right: 10px;" class="icon-sm fa-linkedin icon" href="#"></a>
+                <a class="icon-sm fa-instagram icon" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!-- Global Mailform Output-->
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
