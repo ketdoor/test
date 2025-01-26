@@ -13889,7 +13889,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	position: relative;
 	overflow: hidden;
 }
-
+@media screen and (max-width: 992px) {
+	.parallax-container {
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
 .material-parallax {
 	position: absolute;
 	top: 0;
